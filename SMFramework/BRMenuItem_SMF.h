@@ -7,7 +7,7 @@
 //
 
 //NOTE: should note be used ... use SMFMenuItem instead
-#import <Backrow/Backrow.h>
+#import <BackRow/BackRow.h>
 
 @interface BRMenuItem (SMFExtensions) 
 +(BRMenuItem *)smfFolderMenuItem;

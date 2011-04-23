@@ -6,7 +6,7 @@
 //  Copyright 2011 tomcool.org. All rights reserved.
 //
 
-#import <Backrow/Backrow.h>
+#import <BackRow/BackRow.h>
 @protocol SMFListDropShadowDatasource
 - (long)popupItemCount;
 - (id)popupItemForRow:(long)row;
@@ -17,7 +17,9 @@
 - (id)popupTitleForRow:(long)row;	
 - (long)popupDefaultIndex;
 @end
+
 @protocol SMFListDropShadowDelegate
+
 @optional
 - (void)popupItemSelected:(long)row;
 - (void)popup:(id)p itemSelected:(long)row;

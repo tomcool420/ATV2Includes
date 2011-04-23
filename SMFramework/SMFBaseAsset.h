@@ -6,7 +6,7 @@
 //  Copyright 2010 Thomas Cool. All rights reserved.
 //
 
-#import <Backrow/Backrow.h>
+#import <BackRow/BackRow.h>
 
 
 @interface SMFBaseAsset : BRXMLMediaAsset {

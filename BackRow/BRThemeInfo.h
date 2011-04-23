@@ -4,18 +4,18 @@
  *
  * Source: /System/Library/PrivateFrameworks/BackRow.framework/BackRow
  */
-
-#import "BackRow-Structs.h"
+#import <QuartzCore/QuartzCore.h>
+//#import "BackRow-Structs.h"
 
 @class NSString, NSMutableDictionary;
 
 @interface BRThemeInfo : NSObject {
-@private
-	CGSize _size;	// 4 = 0x4
-	NSString *_controllerBackgroundImageName;	// 12 = 0xc
-	NSMutableDictionary *_ratingsImages;	// 16 = 0x10
-	NSMutableDictionary *_starRatingsImages;	// 20 = 0x14
-	NSMutableDictionary *_cachedImages;	// 24 = 0x18
+//@private
+//	CGSize _size;	// 4 = 0x4
+//	NSString *_controllerBackgroundImageName;	// 12 = 0xc
+//	NSMutableDictionary *_ratingsImages;	// 16 = 0x10
+//	NSMutableDictionary *_starRatingsImages;	// 20 = 0x14
+//	NSMutableDictionary *_cachedImages;	// 24 = 0x18
 }
 + (id)sharedTheme;	// 0x3158de95
 - (id)init;	// 0x3158ded9

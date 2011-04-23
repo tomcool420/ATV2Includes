@@ -10,7 +10,7 @@
 
 @class NSAttributedString, BRTextControl, BRMarqueeTextControl;
 
-__attribute__((visibility("hidden")))
+//__attribute__((visibility("hidden")))
 @interface BRAutoScrollingTextControl : BRControl {
 @private
 	NSAttributedString *_text;	// 40 = 0x28

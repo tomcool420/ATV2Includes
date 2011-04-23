@@ -17,7 +17,7 @@
 	BRTextControl *_label;	// 48 = 0x30
 }
 @property(retain) id identifier;	// G=0x315f7705; S=0x315f7909; converted property
-@property(retain) BRTextControl *label;	// G=0x315f78d9; S=0x315f7835; converted property
+@property(retain) NSString *label;	// G=0x315f78d9; S=0x315f7835; converted property
 - (id)init;	// 0x315f79b5
 - (void)dealloc;	// 0x315f7949
 // converted property getter: - (id)identifier;	// 0x315f7705

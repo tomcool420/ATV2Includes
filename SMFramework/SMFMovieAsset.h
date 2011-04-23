@@ -7,7 +7,7 @@
 //
 
 
-#import <Backrow/Backrow.h>
+#import <BackRow/BackRow.h>
 
 @interface SMFMovieAsset : BRXMLMediaAsset {
     BRImage *_image;

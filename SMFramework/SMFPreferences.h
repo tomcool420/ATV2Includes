@@ -7,7 +7,7 @@
 //
 
 
-#import <Backrow/Backrow.h>
+#import <BackRow/BackRow.h>
 
 @interface SMFPreferences : NSUserDefaults {
 	NSString * _applicationID;
